@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <!-- =====BOX ICONS===== -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <title>Baran - Portfolio</title>
+  </head>
+  <body>
+    <!--===== HEADER =====-->
+    <header class="l-header">
+      <nav class="nav bd-grid">
+        <div>
+          <a href="index.html" class="nav__logo">Baran</a>
+        </div>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="index.html" class="nav__link active-link">Home</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-menu"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="l-main">
+      <!--===== PROJECT SHOWCASE =====-->
+      <section class="project section" id="project">
+        <div class="project__hero">
+          <img src="assets/img/work4big.JPG" alt="Project Hero Image" />
+        </div>
+        <div class="project__info">
+          <h2 class="project__title">Just Do It</h2>
+          <p class="project__description">
+            In dit project heb ik een webapplicatie ontwikkeld voor taakbeheer,
+            waarbij de focus ligt op gebruikersauthenticatie en een volledige
+            CRUD-functionaliteit voor taken en categorieën. De applicatie maakt
+            gebruik van NodeJS en Express voor serverbeheer, met een
+            MVC-architectuur en Handlebars als templating engine. Gebruikers
+            kunnen zich registreren en aanmelden, waarbij wachtwoorden veilig
+            worden versleuteld en opgeslagen. Na aanmelding kunnen ze taken
+            toevoegen, bewerken, archiveren en verwijderen, evenals categorieën
+            beheren. De API biedt endpoints voor het uitvoeren van
+            CRUD-bewerkingen met correcte HTTP-methoden en valideert aanvragen
+            via middleware. Extra functionaliteiten, zoals paginering, zoek- en
+            filteropties, en het delen van takenlijsten, zijn toegevoegd voor
+            een verbeterde gebruikerservaring. Het project maakt gebruik van
+            Knex en Objection met een SQLite-database, en JWT voor veilige
+            authenticatie. De user interface is vrij vormgegeven, met de
+            mogelijkheid om inspiratie te halen uit bestaande ontwerpen. De code
+            is goed gestructureerd en voorzien van een README.md bestand met
+            uitleg over installatie en functionaliteiten. Het eindresultaat
+            wordt ingediend via GitHub Classroom en Canvas, en gepresenteerd
+            tijdens een mondelinge evaluatie.
+          </p>
+          <!-- Go Back Button -->
+          <a href="index.html#work" class="go-back-btn">Go Back</a>
+          <!-- GitHub Button -->
+          <a
+            href="https://github.com/pgmgent-pgm-3/opdracht-1-to-do-application-BaranKrpk"
+            class="github-btn"
+            target="_blank"
+            >Toon op GitHubdd</a
+          >
+        </div>
+      </section>
+
+      <!--===== CONTACT =====-->
+      <section class="contact section" id="contact">
+        <!-- existing contact section code -->
+      </section>
+    </main>
+
+    <!--===== FOOTER =====-->
+    <footer class="footer">
+      <p class="footer__title">Baran - Portfolio</p>
+      <p class="footer__copy">&#169; Baran Kirpik. All rights reserved</p>
+    </footer>
+
+    <!--===== SCROLL REVEAL =====-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--===== MAIN JS =====-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
